@@ -2,6 +2,12 @@
 
 A public demonstration of **computer-use trajectory evaluation, step-level review, error analysis, and QA** using original synthetic desktop and browser tasks.
 
+## Evaluation Demo
+
+The example below shows a synthetic side-by-side AI response evaluation. Two responses are evaluated against the same task for factual accuracy, task completion, instruction following, and unsupported claims.
+
+![Side-by-Side AI Evaluation Demo](docs/assets/cua_demo.png)
+
 The project is intentionally platform-neutral. It shows the evaluation method and supporting tooling without exposing proprietary tasks, client data, internal platforms, or NDA-restricted rubrics.
 
 ## What this project demonstrates
@@ -14,6 +20,9 @@ The project is intentionally platform-neutral. It shows the evaluation method an
 - JSON-based task, trajectory, and evaluation records
 - Python validation, summaries, and a small HTML report
 - examples of successful, inefficient, and incomplete trajectories
+
+
+
 
 ## Evaluation flow
 
