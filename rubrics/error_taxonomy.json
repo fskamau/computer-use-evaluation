@@ -1,0 +1,25 @@
+{
+  "name": "Evaluation Error Taxonomy",
+  "categories": [
+    {
+      "id": "unnecessary_tool_use",
+      "description": "The trajectory uses an application, tool, or action that is not needed for the task."
+    },
+    {
+      "id": "incorrect_action",
+      "description": "The chosen action conflicts with the task requirement or current state."
+    },
+    {
+      "id": "failed_effect",
+      "description": "The intended action is reasonable but does not produce the required state change."
+    },
+    {
+      "id": "incomplete_task",
+      "description": "The trajectory stops before satisfying one or more required success criteria."
+    },
+    {
+      "id": "unsupported_final_claim",
+      "description": "The final response claims completion or a result that is not supported by the trajectory."
+    }
+  ]
+}

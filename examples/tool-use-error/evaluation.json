@@ -1,0 +1,70 @@
+{
+  "task_id": "demo_002",
+  "trajectory_id": "traj_tool_error_001",
+  "overall": {
+    "instruction_following": "pass",
+    "tool_use": "minor_issue",
+    "task_completion": "pass",
+    "efficiency": "minor_issue",
+    "final_rating": "pass_with_minor_issue"
+  },
+  "errors": [
+    {
+      "category": "unnecessary_tool_use",
+      "step": 3,
+      "description": "Calculator was opened even though no calculation was needed."
+    }
+  ],
+  "step_evaluations": [
+    {
+      "step": 1,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    },
+    {
+      "step": 2,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    },
+    {
+      "step": 3,
+      "consistency": true,
+      "action_match": false,
+      "reasonable": false,
+      "intended_effect": false
+    },
+    {
+      "step": 4,
+      "consistency": true,
+      "action_match": false,
+      "reasonable": false,
+      "intended_effect": false
+    },
+    {
+      "step": 5,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    },
+    {
+      "step": 6,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    },
+    {
+      "step": 7,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    }
+  ],
+  "notes": "The task is completed, but the Calculator detour adds unnecessary actions."
+}

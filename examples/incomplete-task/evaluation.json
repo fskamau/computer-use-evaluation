@@ -1,0 +1,42 @@
+{
+  "task_id": "demo_003",
+  "trajectory_id": "traj_incomplete_001",
+  "overall": {
+    "instruction_following": "fail",
+    "tool_use": "pass",
+    "task_completion": "fail",
+    "efficiency": "pass",
+    "final_rating": "fail"
+  },
+  "errors": [
+    {
+      "category": "incomplete_task",
+      "step": 3,
+      "description": "The second required file was selected but never moved into Review Pack."
+    }
+  ],
+  "step_evaluations": [
+    {
+      "step": 1,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    },
+    {
+      "step": 2,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    },
+    {
+      "step": 3,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": false
+    }
+  ],
+  "notes": "A required end state is missing, so the trajectory does not complete the task."
+}

@@ -1,0 +1,12 @@
+{
+  "task_id": "demo_002",
+  "title": "Find and record a webpage value",
+  "environment": "synthetic-browser",
+  "instruction": "Open the sample product page, find the listed price, record it in the notes application, and return to the product page.",
+  "success_criteria": [
+    "The sample product page is opened",
+    "The displayed price is identified correctly",
+    "The value is recorded in the notes application",
+    "The final state returns to the product page"
+  ]
+}

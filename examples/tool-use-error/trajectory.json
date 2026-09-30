@@ -1,0 +1,48 @@
+{
+  "task_id": "demo_002",
+  "trajectory_id": "traj_tool_error_001",
+  "steps": [
+    {
+      "step": 1,
+      "action": "open_url",
+      "target": "sample product page",
+      "observed_result": "Product page opened"
+    },
+    {
+      "step": 2,
+      "action": "read_value",
+      "target": "price",
+      "observed_result": "Displayed price was KSh 4,850"
+    },
+    {
+      "step": 3,
+      "action": "open_application",
+      "target": "Calculator",
+      "observed_result": "Calculator opened unnecessarily"
+    },
+    {
+      "step": 4,
+      "action": "enter_value",
+      "target": "4850",
+      "observed_result": "Value entered in Calculator"
+    },
+    {
+      "step": 5,
+      "action": "open_application",
+      "target": "Notes",
+      "observed_result": "Notes opened"
+    },
+    {
+      "step": 6,
+      "action": "record_value",
+      "target": "KSh 4,850",
+      "observed_result": "Value recorded"
+    },
+    {
+      "step": 7,
+      "action": "open_url",
+      "target": "sample product page",
+      "observed_result": "Returned to product page"
+    }
+  ]
+}

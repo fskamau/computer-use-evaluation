@@ -1,0 +1,57 @@
+{
+  "task_id": "demo_001",
+  "trajectory_id": "traj_success_001",
+  "overall": {
+    "instruction_following": "pass",
+    "tool_use": "pass",
+    "task_completion": "pass",
+    "efficiency": "pass",
+    "final_rating": "pass"
+  },
+  "errors": [],
+  "step_evaluations": [
+    {
+      "step": 1,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    },
+    {
+      "step": 2,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    },
+    {
+      "step": 3,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    },
+    {
+      "step": 4,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    },
+    {
+      "step": 5,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    },
+    {
+      "step": 6,
+      "consistency": true,
+      "action_match": true,
+      "reasonable": true,
+      "intended_effect": true
+    }
+  ],
+  "notes": "The trajectory completes the requested task directly with no unnecessary detours."
+}

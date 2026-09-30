@@ -1,0 +1,33 @@
+{
+  "name": "Computer-Use Step Evaluation",
+  "version": "1.0",
+  "dimensions": [
+    {
+      "key": "consistency",
+      "question": "Is the step consistent with the visible state and prior trajectory context?"
+    },
+    {
+      "key": "action_match",
+      "question": "Does the action match what the task requires at this point?"
+    },
+    {
+      "key": "reasonable",
+      "question": "Is the action a reasonable choice for making progress?"
+    },
+    {
+      "key": "intended_effect",
+      "question": "Did the step produce the intended effect?"
+    }
+  ],
+  "overall_dimensions": [
+    "instruction_following",
+    "tool_use",
+    "task_completion",
+    "efficiency"
+  ],
+  "allowed_final_ratings": [
+    "pass",
+    "pass_with_minor_issue",
+    "fail"
+  ]
+}

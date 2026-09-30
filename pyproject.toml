@@ -1,0 +1,5 @@
+[project]
+name = "computer-use-evaluation-lab"
+version = "0.1.0"
+description = "Synthetic examples and tooling for structured computer-use trajectory evaluation."
+requires-python = ">=3.10"

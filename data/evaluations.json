@@ -1,0 +1,171 @@
+[
+  {
+    "task_id": "demo_001",
+    "trajectory_id": "traj_success_001",
+    "overall": {
+      "instruction_following": "pass",
+      "tool_use": "pass",
+      "task_completion": "pass",
+      "efficiency": "pass",
+      "final_rating": "pass"
+    },
+    "errors": [],
+    "step_evaluations": [
+      {
+        "step": 1,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      },
+      {
+        "step": 2,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      },
+      {
+        "step": 3,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      },
+      {
+        "step": 4,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      },
+      {
+        "step": 5,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      },
+      {
+        "step": 6,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      }
+    ],
+    "notes": "The trajectory completes the requested task directly with no unnecessary detours."
+  },
+  {
+    "task_id": "demo_002",
+    "trajectory_id": "traj_tool_error_001",
+    "overall": {
+      "instruction_following": "pass",
+      "tool_use": "minor_issue",
+      "task_completion": "pass",
+      "efficiency": "minor_issue",
+      "final_rating": "pass_with_minor_issue"
+    },
+    "errors": [
+      {
+        "category": "unnecessary_tool_use",
+        "step": 3,
+        "description": "Calculator was opened even though no calculation was needed."
+      }
+    ],
+    "step_evaluations": [
+      {
+        "step": 1,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      },
+      {
+        "step": 2,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      },
+      {
+        "step": 3,
+        "consistency": true,
+        "action_match": false,
+        "reasonable": false,
+        "intended_effect": false
+      },
+      {
+        "step": 4,
+        "consistency": true,
+        "action_match": false,
+        "reasonable": false,
+        "intended_effect": false
+      },
+      {
+        "step": 5,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      },
+      {
+        "step": 6,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      },
+      {
+        "step": 7,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      }
+    ],
+    "notes": "The task is completed, but the Calculator detour adds unnecessary actions."
+  },
+  {
+    "task_id": "demo_003",
+    "trajectory_id": "traj_incomplete_001",
+    "overall": {
+      "instruction_following": "fail",
+      "tool_use": "pass",
+      "task_completion": "fail",
+      "efficiency": "pass",
+      "final_rating": "fail"
+    },
+    "errors": [
+      {
+        "category": "incomplete_task",
+        "step": 3,
+        "description": "The second required file was selected but never moved into Review Pack."
+      }
+    ],
+    "step_evaluations": [
+      {
+        "step": 1,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      },
+      {
+        "step": 2,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": true
+      },
+      {
+        "step": 3,
+        "consistency": true,
+        "action_match": true,
+        "reasonable": true,
+        "intended_effect": false
+      }
+    ],
+    "notes": "A required end state is missing, so the trajectory does not complete the task."
+  }
+]

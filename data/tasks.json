@@ -1,0 +1,37 @@
+[
+  {
+    "task_id": "demo_001",
+    "title": "Create a structured note",
+    "environment": "synthetic-desktop",
+    "instruction": "Open the notes application, create a note titled Project Checklist, add three checklist items, and leave the note open.",
+    "success_criteria": [
+      "Notes application is open",
+      "A note titled Project Checklist exists",
+      "The note contains exactly three checklist items",
+      "The final state leaves the note visible"
+    ]
+  },
+  {
+    "task_id": "demo_002",
+    "title": "Find and record a webpage value",
+    "environment": "synthetic-browser",
+    "instruction": "Open the sample product page, find the listed price, record it in the notes application, and return to the product page.",
+    "success_criteria": [
+      "The sample product page is opened",
+      "The displayed price is identified correctly",
+      "The value is recorded in the notes application",
+      "The final state returns to the product page"
+    ]
+  },
+  {
+    "task_id": "demo_003",
+    "title": "Organize files into a folder",
+    "environment": "synthetic-desktop",
+    "instruction": "Create a folder named Review Pack and move the two supplied text files into it.",
+    "success_criteria": [
+      "A folder named Review Pack exists",
+      "Both supplied text files are inside Review Pack",
+      "No unrelated files are moved"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "task_id": "demo_001",
+  "trajectory_id": "traj_success_001",
+  "steps": [
+    {
+      "step": 1,
+      "action": "open_application",
+      "target": "Notes",
+      "observed_result": "Notes opened"
+    },
+    {
+      "step": 2,
+      "action": "create_note",
+      "target": "New note",
+      "observed_result": "Blank note created"
+    },
+    {
+      "step": 3,
+      "action": "set_title",
+      "target": "Project Checklist",
+      "observed_result": "Title entered"
+    },
+    {
+      "step": 4,
+      "action": "add_checklist_item",
+      "target": "Review brief",
+      "observed_result": "Item added"
+    },
+    {
+      "step": 5,
+      "action": "add_checklist_item",
+      "target": "Run validation",
+      "observed_result": "Item added"
+    },
+    {
+      "step": 6,
+      "action": "add_checklist_item",
+      "target": "Submit report",
+      "observed_result": "Item added"
+    }
+  ]
+}

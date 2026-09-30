@@ -1,0 +1,24 @@
+{
+  "task_id": "demo_003",
+  "trajectory_id": "traj_incomplete_001",
+  "steps": [
+    {
+      "step": 1,
+      "action": "create_folder",
+      "target": "Review Pack",
+      "observed_result": "Folder created"
+    },
+    {
+      "step": 2,
+      "action": "move_file",
+      "target": "brief.txt",
+      "observed_result": "brief.txt moved"
+    },
+    {
+      "step": 3,
+      "action": "select_file",
+      "target": "notes.txt",
+      "observed_result": "notes.txt selected but not moved"
+    }
+  ]
+}

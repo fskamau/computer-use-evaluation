@@ -1,0 +1,12 @@
+{
+  "task_id": "demo_001",
+  "title": "Create a structured note",
+  "environment": "synthetic-desktop",
+  "instruction": "Open the notes application, create a note titled Project Checklist, add three checklist items, and leave the note open.",
+  "success_criteria": [
+    "Notes application is open",
+    "A note titled Project Checklist exists",
+    "The note contains exactly three checklist items",
+    "The final state leaves the note visible"
+  ]
+}
